@@ -1,0 +1,294 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+/* search */
+@media (max-width: 991px) {
+
+    .hero-title {
+        font-size: 60px !important;
+    }
+
+    .hero-title + p {
+        font-size: 19px !important;
+    }
+
+    .movies-section {
+        padding: 40px 30px;
+    }
+
+    .movies-header h2 {
+        font-size: 24px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .hero-title {
+        font-size: 48px !important;
+    }
+
+    .hero-title + p {
+        font-size: 17px !important;
+        padding: 0 20px;
+    }
+
+    .hero-title ~ div {
+        padding: 0 20px;
+    }
+
+    .hero-title ~ div input {
+        width: 230px !important;
+    }
+  }
+
+
+
+  /* moviecard */
+@media (max-width: 992px) {
+
+    .results-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+        gap: 18px !important;
+    }
+
+    .movie-poster {
+        height: 320px !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .results-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 15px !important;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+    }
+
+    .movie-poster {
+        height: 300px !important;
+    }
+
+    .movie-info {
+        padding: 12px !important;
+    }
+
+    .movie-title {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .movie-year {
+        font-size: 14px;
+    }
+
+}
+
+
+@media (max-width: 480px) {
+
+    .results-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+        gap: 10px !important;
+    }
+
+    .movie-poster {
+        height: 240px !important;
+    }
+
+    .movie-info {
+        padding: 10px !important;
+    }
+
+    .movie-title {
+        font-size: 14px;
+    }
+
+    .movie-year {
+        font-size: 13px;
+    }
+
+}
+
+
+/* details */
+
+@media (max-width: 992px) {
+
+    .movie-page {
+        padding: 40px 20px;
+    }
+
+    .detail-card {
+        margin: 0;
+        padding: 25px;
+    }
+
+    .detail-grid {
+        grid-template-columns: 240px 1fr !important;
+        gap: 25px !important;
+    }
+
+    .detail-poster img {
+        width: 240px !important;
+        margin-left: 0 !important;
+    }
+
+    .detail-content {
+        margin-left: 10px !important;
+    }
+
+    .detail-title {
+        font-size: 32px;
+    }
+
+    .detail-info-grid {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+}
+
+
+
+
+@media (max-width: 768px) {
+
+    .movie-page {
+        padding: 30px 15px;
+    }
+
+    .detail-card {
+        padding: 20px;
+        margin: 0;
+    }
+
+
+    .detail-grid {
+        display: flex !important;
+        flex-direction: column !important;
+
+        gap: 20px !important;
+    }
+
+    /* Poster */
+
+    .detail-poster {
+        width: 100% !important;
+    }
+
+    .detail-poster img {
+        width: 280px !important;
+        max-width: 100% !important;
+
+        margin: 10px auto !important;
+    }
+
+    /* Content */
+
+    .detail-content {
+        margin-left: 0 !important;
+        margin-top: 10px !important;
+    }
+
+    .detail-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .detail-meta {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .detail-meta .ms-5 {
+        margin-left: 0 !important;
+    }
+
+    .detail-info-grid {
+        display: block;
+    }
+
+    .detail-info-grid p {
+        font-size: 15px;
+        line-height: 1.6;
+        margin-bottom: 10px;
+    }
+
+    .detail-plot {
+        font-size: 15px;
+        line-height: 1.7;
+    }
+
+    .ratings-box {
+        font-size: 14px;
+    }
+
+    .back-button {
+        text-align: center;
+    }
+
+}
+
+
+
+@media (max-width: 480px) {
+
+    .movie-page {
+        padding: 20px 10px;
+    }
+
+    .detail-card {
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .detail-grid {
+        gap: 15px !important;
+    }
+
+    .detail-poster img {
+        width: 220px !important;
+        max-width: 100% !important;
+    }
+
+    .detail-title {
+        font-size: 25px;
+        line-height: 1.2;
+    }
+
+    .detail-meta {
+        font-size: 14px;
+        gap: 15px;
+    }
+
+    .detail-info-grid p {
+        font-size: 14px;
+    }
+
+    .detail-plot {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    .ratings-box {
+        padding: 15px;
+    }
+
+    .ratings-box h5 {
+        font-size: 17px;
+    }
+
+    .ratings-box li {
+        font-size: 13px;
+        margin-bottom: 7px;
+    }
+
+    .back-button button {
+        width: 100%;
+        padding: 10px;
+    }
+
+}
