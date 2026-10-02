@@ -1,7 +1,42 @@
-*{
-  margin: 0;
-  padding: 0;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
+
+/* =========================
+   FULL PAGE BLACK BACKGROUND
+========================= */
+
+html,
+body,
+#root {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000 !important;
+}
+
+/* Movie details page */
+.movie-page {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #000 !important;
+    color: white;
+    padding: 40px 20px;
+}
+
+/* Detail card */
+.detail-card {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #0b0b0b;
+    border: 1px solid #222;
+    border-radius: 15px;
+    padding: 30px;
+}
+
 /* search */
 @media (max-width: 991px) {
 

@@ -43,7 +43,7 @@ const location = useLocation()
 
   return (
     <div>
-       <div className='movie-page bg-dark'>
+       <div className='movie-page'>
         <div className='detail-card'>
         <div className='detail-grid d-flex flexDirectionColumn' style={{ display: 'grid',gridTemplateColumns: '320px 1fr, gap: 45px'}}>
           <div className='detail-poster'>
@@ -95,7 +95,7 @@ const location = useLocation()
               </div>
             )}
              <div className="back-button btn btn-dark" >
-                <button onClick={() => navigate("/")} style={{ background: '#1c252e',border:' 1px solid #36414c',color: 'white',padding: '10px 18px', borderRadius: '8px'}}>
+                <button onClick={() => navigate("/")} style={{ background: 'red',border:' #36414c',color: 'white',padding: '10px 18px', borderRadius: '8px'}}>
                   <i className="bi bi-arrow-left"></i>
                   {" "}
                   Back to Results
